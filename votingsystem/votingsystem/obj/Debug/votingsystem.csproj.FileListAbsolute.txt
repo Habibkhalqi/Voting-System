@@ -27,3 +27,7 @@ C:\Users\Habib Khalqi\Desktop\Voting-System\votingsystem\votingsystem\obj\Debug\
 C:\Users\Habib Khalqi\Desktop\Voting-System\votingsystem\votingsystem\obj\Debug\votingsystem.csproj.CoreCompileInputs.cache
 C:\Users\Habib Khalqi\Desktop\Voting-System\votingsystem\votingsystem\obj\Debug\votingsystem.exe
 C:\Users\Habib Khalqi\Desktop\Voting-System\votingsystem\votingsystem\obj\Debug\votingsystem.pdb
+C:\Users\Habib Khalqi\Desktop\Voting-System\votingsystem\votingsystem\obj\Debug\votingsystem.candidate_View.resources
+C:\Users\Habib Khalqi\Desktop\Voting-System\votingsystem\votingsystem\obj\Debug\votingsystem.editvoter.resources
+C:\Users\Habib Khalqi\Desktop\Voting-System\votingsystem\votingsystem\obj\Debug\votingsystem.voterform.resources
+C:\Users\Habib Khalqi\Desktop\Voting-System\votingsystem\votingsystem\obj\Debug\votingsystem.resulsts.resources

@@ -45,7 +45,7 @@ namespace votingsystem
 
         private void btn_save_Click(object sender, EventArgs e)
         {
-            string updatequerry = "UPDATE candidate set cname = '" + cmb_editname.Text + "',cnic='"+txt_CCNIC.Text+"',affiliation = '"+txt_affiliation.Text+ "',biography='"+txt_biogram.Text+ "',contact='"+txt_contafct.Text+ "',constituency='"+cmb_constituency.Text+"'";
+            string updatequerry = "UPDATE candidate set cname = '" + cmb_editname.Text + "',affiliation = '"+txt_affiliation.Text+ "',biography='"+txt_biogram.Text+ "',contact='"+txt_contafct.Text+ "',constituency='"+cmb_constituency.Text+"'where cnic='"+txt_CCNIC.Text+"'";
             SqlConnection con = new SqlConnection(confi);
             con.Open();
             SqlCommand cmd = new SqlCommand(updatequerry,con);

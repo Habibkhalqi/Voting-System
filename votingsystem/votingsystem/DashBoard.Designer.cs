@@ -78,22 +78,23 @@
             // registerCandidateToolStripMenuItem
             // 
             this.registerCandidateToolStripMenuItem.Name = "registerCandidateToolStripMenuItem";
-            this.registerCandidateToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.registerCandidateToolStripMenuItem.Size = new System.Drawing.Size(262, 34);
             this.registerCandidateToolStripMenuItem.Text = "Register Candidate";
             this.registerCandidateToolStripMenuItem.Click += new System.EventHandler(this.registerCandidateToolStripMenuItem_Click);
             // 
             // editRegisterToolStripMenuItem
             // 
             this.editRegisterToolStripMenuItem.Name = "editRegisterToolStripMenuItem";
-            this.editRegisterToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.editRegisterToolStripMenuItem.Size = new System.Drawing.Size(262, 34);
             this.editRegisterToolStripMenuItem.Text = "Edit Register";
             this.editRegisterToolStripMenuItem.Click += new System.EventHandler(this.editRegisterToolStripMenuItem_Click);
             // 
             // viewToolStripMenuItem
             // 
             this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
-            this.viewToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.viewToolStripMenuItem.Size = new System.Drawing.Size(262, 34);
             this.viewToolStripMenuItem.Text = "View";
+            this.viewToolStripMenuItem.Click += new System.EventHandler(this.viewToolStripMenuItem_Click);
             // 
             // voterToolStripMenuItem
             // 
@@ -108,21 +109,23 @@
             // registerVoterToolStripMenuItem
             // 
             this.registerVoterToolStripMenuItem.Name = "registerVoterToolStripMenuItem";
-            this.registerVoterToolStripMenuItem.Size = new System.Drawing.Size(224, 34);
+            this.registerVoterToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.registerVoterToolStripMenuItem.Text = "Register Voter";
             this.registerVoterToolStripMenuItem.Click += new System.EventHandler(this.registerVoterToolStripMenuItem_Click);
             // 
             // editVoterToolStripMenuItem
             // 
             this.editVoterToolStripMenuItem.Name = "editVoterToolStripMenuItem";
-            this.editVoterToolStripMenuItem.Size = new System.Drawing.Size(224, 34);
+            this.editVoterToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.editVoterToolStripMenuItem.Text = "Edit Voter";
+            this.editVoterToolStripMenuItem.Click += new System.EventHandler(this.editVoterToolStripMenuItem_Click);
             // 
             // viewToolStripMenuItem1
             // 
             this.viewToolStripMenuItem1.Name = "viewToolStripMenuItem1";
-            this.viewToolStripMenuItem1.Size = new System.Drawing.Size(224, 34);
+            this.viewToolStripMenuItem1.Size = new System.Drawing.Size(270, 34);
             this.viewToolStripMenuItem1.Text = "View";
+            this.viewToolStripMenuItem1.Click += new System.EventHandler(this.viewToolStripMenuItem1_Click);
             // 
             // votingToolStripMenuItem
             // 
@@ -199,6 +202,7 @@
             this.button4.TabIndex = 5;
             this.button4.Text = "View Rults";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label1
             // 

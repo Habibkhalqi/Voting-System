@@ -58,5 +58,29 @@ namespace votingsystem
             editcandidate ec = new editcandidate();
             ec.Show(this);
         }
+
+        private void viewToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            candidate_View view = new candidate_View();
+            view.Show(this);
+        }
+
+        private void editVoterToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            editvoter ev = new editvoter();
+            ev.Show(this);
+        }
+
+        private void viewToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            voterform voter = new voterform();
+            voter.Show(this);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            resulsts rs = new resulsts();   
+            rs.Show(this);
+        }
     }
 }
